@@ -4,28 +4,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/styles/styles.css">
     <title>Document</title>
 </head>
 
 <body>
-    <dive>
-        <dive>
-            <ul>
-                <li>Enlace 1</li>
-                <li>Enlace 1</li>
-                <li>Enlace 1</li>
-                <li>Enlace 1</li>
-                <li>Enlace 1</li>
+    <div class="menu">
+        <ul>
+            <li>Enlace 1</li>
+            <li>Enlace 2</li>
+            <li>Enlace 3</li>
+            <li>Enlace 4</li>
+            <li>Enlace 5</li>
+        </ul>
+    </div>
 
-            </ul>
-        </dive>
-        <dive><img src="./src/asets/ing/im1.jpg" alt="ropa verde" srcset=""></dive>
-        <dive>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe alias deleniti corrupti cumque iste
-                necessitatibus non, amet error porro eaque aspernatur vel minus similique facilis vero, voluptatem
-                labore voluptas ratione!</p>
-        </dive>
-    </dive>
+    <div class="card">
+        <img src="./src/asets/img/img1.jpg" alt="Señora con su hijo" srcset="">
+
+        <div class="text-card">
+         <h2>Lorem ipsum dolor sit amet.</h2>
+
+         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio reiciendis itaque similique officia rerum
+            facere aliquam quos sit aspernatur. Sit pariatur laboriosam assumenda aspernatur, voluptas quam est
+            asperiores magnam exercitationem?</p>
+        </div>
+        <div class="button">
+            <button onclick="saludoFuncion()">Enviar</button>
+            <button onclick="SALUDO_FLECHA()">Enviar</button>
+            <button onclick="SALUDO_DOS()">Enviar</button>
+        </div>
+    </div>
     <div>
         <table>
             <tr>
@@ -35,5 +44,6 @@
         </table>
     </div>
 </body>
+<script src="./src/js/app.js"></script>
 
 </html>
